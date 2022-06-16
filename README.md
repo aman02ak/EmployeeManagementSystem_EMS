@@ -1,5 +1,7 @@
 # Employee Management System
 
+## Video Link : <a href="https://youtu.be/VXZ3TQaY8uE">YouTube</a>
+
 > About Project
 <p>
 EMS is a record management system of an organization, where the organization can create, delete, manage and view existing / new employee record.
