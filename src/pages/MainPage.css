@@ -1,0 +1,374 @@
+.MainPage {
+  display: block;
+  margin: 50px;
+  /* border: 3px solid green; */
+  /* height: calc(100vh - 200px); */
+  /* position: relative; */
+}
+
+.EmpContainer {
+  width: 100%;
+  /* position: absolute; */
+}
+
+.confirmDelete {
+  position: relative;
+}
+
+.searchBoxInput .ant-input,
+.searchBoxInput .ant-btn {
+  border-color: black !important;
+}
+
+.ant-btn {
+  font-size: 15px !important;
+}
+.Emp {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  border: 1px solid lightslategrey;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Emp .EmpDisplay {
+  display: flex;
+  justify-content: space-between;
+}
+.Emp .EmpDisplay > div,
+.Emp .EmpDisplay .EmpContent img,
+.Emp .EmpDisplay .EmpContent .EmpContentDetails {
+  display: inline-block;
+}
+
+.Emp .EmpDisplay .EmpContent {
+  top: 0%;
+  transform: translate(0px, 0%);
+}
+
+.Emp .EmpDisplay .EmpContent > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  top: 50%;
+  transform: translate(0px, -25%);
+}
+
+.Emp .EmpDisplay .EmpContent > img:hover {
+  opacity: 0.3;
+}
+
+.Emp .EmpDisplay .EmpContent .EmpContentDetails > span {
+  display: block;
+  font-size: 15px;
+}
+
+.Emp .EmpDisplay .EmpContent .EmpContentDetails > span:last-child {
+  font-size: 13px;
+}
+
+.Emp .EmpDisplay .EmpMenu {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.Emp .EmpDisplay .EmpMenu > button {
+  margin-left: 3px;
+  width: 100px;
+}
+
+/* Drop Down */
+.EmpHide {
+  border-top: 1px solid #d3d3d3;
+}
+
+.EmpHide .dropdown {
+  padding: 0 0 0 10px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  width: calc(100% - 10px);
+}
+/* 
+.EmpMenu:focus .dropdown {
+  opacity: 1;
+  z-index: 100;
+  max-height: 100vh;
+  transition: opacity 0.3s;
+  z-index: 0.2s;
+  max-height: 0.2s;
+}
+
+.three-dots::after {
+  cursor: pointer;
+  color: black;
+  content: "•••";
+  font-size: 20px;
+} */
+
+/* .dropdown span {
+  top: 50px;
+  transform: translate(0px, 50px);
+  padding: 2px 16px;
+  cursor: pointer;
+  height: 30 px;
+  line-height: 30px;
+} */
+
+.dropdown > .dropdown_section,
+.dropdown_article {
+  width: 50%;
+}
+
+.dropdown .dropdown_article .dropdown_article_center {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.dropdown .dropdown_article .dropdown_article_center > button {
+  width: 100px;
+  transform: translate(487px, calc(70% - 11px));
+  margin: 10px;
+}
+
+.Error {
+  color: red;
+  text-align: center;
+}
+
+.EmpContainerError {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.ErrorImage {
+  /* border: 1px solid black; */
+  width: 100%;
+  /* max-height: calc(100vh - 94px); */
+  /* min-height: calc(100vh - 150px); */
+  height: calc(100vh - 90px);
+}
+
+/* CSS */
+.button-15 {
+  width: 100px;
+  height: 40px;
+  background-image: linear-gradient(#42a1ec, #0070c9);
+  border: 1px solid #0077cc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  direction: ltr;
+  display: inline-block;
+  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+.button-15:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.button-15:hover {
+  background-image: linear-gradient(#51a9ee, #147bcd);
+  border-color: #1482d0;
+  text-decoration: none;
+}
+
+.button-15:active {
+  background-image: linear-gradient(#3d94d9, #0067b9);
+  border-color: #006dbc;
+  outline: none;
+}
+
+.button-15:focus {
+  box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+  outline: none;
+}
+
+/* Enlarge New Entry */
+/* .modal_1 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+
+  width: 90vw;
+  height: 100vh;
+  overflow: auto;
+
+  background-color: rgba(0, 0, 0, 0.85);
+} */
+
+/* Enlarge Image Model */
+.modal {
+  /* display: none;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.85); */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  outline: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.myModalDisplay {
+  /* display: flex;
+  justify-content: space-evenly; */
+  /* margin: 5%; */
+  /* width: 90%;
+  height: 68%; */
+
+  z-index: 1055;
+  width: 100%;
+  height: 100%;
+}
+
+.myModalSection {
+  float: left;
+
+  width: 50%;
+  height: 100%;
+  /* background-color: #006dbc; */
+  /* top: 30%;
+  transform: translate(0, 20%); */
+  /* transform: translate(0px, 10%); */
+}
+
+.myModelSectionCenter {
+  transform: translate(15%, 30%);
+}
+
+/* Modal Content (image) */
+.modal-img {
+  margin: 0;
+  display: block;
+  width: 70%;
+  height: 70%;
+  border-radius: 5vw;
+}
+
+/* Caption of Modal Image */
+#caption {
+  display: block;
+  width: 70%;
+  /* background-color: #ccc; */
+  /* max-width: 700px; */
+  text-align: center;
+  color: #ccc;
+  font-size: 50px;
+  font-weight: 900;
+  /* padding: 10px 0; */
+  /* height: 150px; */
+}
+
+/* Add Animation */
+.modal-img,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.myModalArticle .myModelArticleCenter > button {
+  display: block;
+  margin: 10px 0px;
+}
+.myModalArticle {
+  float: right;
+
+  width: 50%;
+  height: 100%;
+  /* background-color: burlywood; */
+  /*  */
+}
+
+.myModelArticleCenter {
+  /* top: 50%;
+  left: 50%; */
+  transform: translate(40%, 35vh);
+}
+
+.myModelArticleCenter input,
+.myModelArticleCenter #myModelArticleCenterUpload {
+  display: none;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  /* float: right; */
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+/* @media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+} */

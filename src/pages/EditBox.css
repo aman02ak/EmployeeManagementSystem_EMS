@@ -1,0 +1,47 @@
+:root {
+  color: white;
+}
+
+.recordEditClass {
+  margin: 0;
+  padding: 0;
+
+  width: inherit;
+  height: inherit;
+  font-family: var(--font);
+}
+
+.recordEditClassChild {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 40px;
+
+  width: 50vw;
+  /* height: 70vh; */
+  transform: translate(50%, 20%);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.ant-form-item-control-input-content > button {
+  transform: translate(250px, 0);
+}
+
+.ant-form-item-control-input-content > button:disabled {
+  cursor: not-allowed;
+}
+
+.formik_errors {
+  color: red;
+}
+
+.recordEditClassChild .ant-form-item-control-input-content > input::placeholder,
+select::placeholder,
+select {
+  color: black;
+}
+
+.recordEditClassChild .ant-select-selection-placeholder {
+  color: #000000;
+}

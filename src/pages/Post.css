@@ -1,0 +1,73 @@
+.EmpIndividualContainer {
+  margin: 50px;
+  padding: 0;
+  font-family: var(--font);
+  height: calc(100vh - 200px);
+  position: relative;
+  /* border: 2px solid; */
+}
+
+.EmpIndividual {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  transform: translateY(-5%);
+  -ms-transform: translateX(-26%);
+  transform: translateX(-26%);
+  border: 1px solid lightslategrey;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  flex: 1 0 calc(250px);
+  /* Inside Box CSS */
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+}
+
+.EmpIndividualContent {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  transform: translateY(-25%);
+  -ms-transform: translateX(-26%);
+  transform: translateX(-26%);
+  /* border: 2px solid; */
+  color: black;
+  cursor: grab;
+  font-size: 15px;
+  height: 150px;
+}
+
+.EmpIndividualContent h3 {
+  font-size: 30px;
+  display: block;
+  box-shadow: rgba(12, 148, 252, 0.3) 0px 2px 0px 0px;
+  cursor: default;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.EmpIndividualContent .article,
+.EmpIndividualContent .section {
+  display: inline-block;
+}
+
+.EmpIndividualContent .section {
+  float: left;
+  width: 70%;
+  /* top: 30%;
+  transform: translate(0, 10%); */
+}
+
+.EmpIndividualContent .article {
+  width: 30%;
+  margin: 5px 0px 5px 0px;
+  float: right;
+}
+
+.EmpIndividualContent .article > img {
+  width: min(100%, 100px);
+  height: 150px;
+  border: 1px solid black;
+  /* border-radius: 50%; */
+}

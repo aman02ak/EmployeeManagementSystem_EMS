@@ -1,0 +1,42 @@
+:root {
+  --textColor: #616161;
+  --bc: #282c34;
+  --font: "Arial";
+}
+.App {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: var(--bc); */
+}
+
+.navbar {
+  width: 100vw;
+  height: 8vh;
+  padding: 0;
+  /* background-color: whitesmoke; */
+  background-color: #f76c6c;
+  /* #ff6700; */
+}
+/* 
+.navbar .links {
+  display: inline-block;
+} */
+.navbar .header {
+  display: block;
+  /* color: black; */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: calc(2.8vw);
+  font-weight: 500;
+  left: 35vw;
+  transform: translate(29vw, -1.6vh);
+  -ms-transform: translate(30vw, 0);
+}

@@ -1,0 +1,20 @@
+.paginationBox {
+  display: block;
+  width: 92%;
+  background-color: aqua;
+  bottom: 50px;
+  position: absolute;
+}
+
+.paginationBoxRight {
+  position: absolute;
+  right: 0;
+}
+
+.paginationBox .page-item {
+  display: inline-block;
+}
+
+.page-link:hover {
+  cursor: pointer;
+}
